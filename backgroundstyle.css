@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Geologica';
+    src: url(Geologica-VariableFont_CRSV,SHRP,slnt,wght.ttf)
+    format('truetype');
+
+}
+
+
+body {
+	font-family: 'Geologica', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+}
+
+h1 {
+    font: 600 3.5em;
+    font-family: 'Geologica', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font-size: 900 1em ;
+    font-family: 'Geologica', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
+}
+
+button {
+    font-family: 'Geologica', sans-serif, bold;
+    margin : 4rem 5rem 4rem 5rem;
+    padding: .5em .25em; 
+    border-radius: 15px;
+    background: rgb(232, 225, 141);
+    border: 2px solid ; 
+    will-change: transform;
+    transition: 450ms;
+    
+}
+
+button:hover,
+button:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+  transition: 450ms;
+}
+
